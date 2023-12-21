@@ -1,0 +1,731 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+background: linear-gradient(rgba(0,0,0,0.5), #000000), url(images/banner3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+}
+.banner-text{
+    text-align: center;
+    color: crimson;
+    padding-top: 180px;
+
+}
+.banner-text h1{
+    font-size: 130px;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+
+}
+.banner-text p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+.banner-btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #b81818;
+    z-index: -1;
+    transition: 0.5s;
+    
+}
+.banner-btn a:hover span{
+    width: 100%;
+}
+.banner-btn a:hover{
+    color: #000000;
+}
+
+#sidenav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #b81818;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+#menuBtn{
+    width: 50px;
+    height: 50px;
+    background: #b81818;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menuBtn img{
+    width: 20px;
+    margin-top: 15px;
+}
+
+/*--History Section--*/
+
+#history{
+    background: linear-gradient(rgba(0,0,0,0.3), #000000), url(images/DALL3.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 70px 0;
+    background-color: #e8b8b8;
+}
+
+#history2{
+    background: linear-gradient(rgba(0,0,0,0.3), #000000), url(images/DALL3.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 70px 0;
+    background-color: #e8b8b8;
+}
+#history3{
+    background: linear-gradient(rgba(0,0,0,0.3), #000000), url(images/DALL3.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 70px 0;
+    background-color: #e8b8b8;
+}
+
+.history-title{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.history-title p{
+    margin:auto;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+    display: inline-block;
+}
+.history-title p::after{
+    content: '';
+    width: 40px;
+    height: 45px;
+    background: linear-gradient(#b81818, #000000);
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    z-index: -1;
+    transform: rotate(20deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.history-title h1{
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+}
+.history-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.histories{
+    flex-basis: 50%;
+}
+.histories-img{
+    flex-basis: 40%;
+    margin: auto;
+}
+.histories-img img{
+    width: 50%;
+    border-radius: 10px;
+}
+.histories h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #ffffff;
+    font-weight: bold;
+}
+.history-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.history-icon .fa{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border-radius: 8px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.history-text p{
+    padding: 0 20px;
+    text-align: initial;
+}
+
+/* COUNTER SECTION */
+
+#counter{
+    background: linear-gradient(rgba(0,0,0,0.3), #000000), url(images/DALL4.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 70px 0;
+    background-color: #e8b8b8;
+}
+
+* {   
+    box-sizing: border-box;   
+}     
+
+.counter-title{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.counter-title p{
+    margin:auto;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+    display: inline-block;
+}
+.counter-title p::after{
+    content: '';
+    width: 40px;
+    height: 45px;
+    background: linear-gradient(#b81818, #000000);
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    z-index: -1;
+    transform: rotate(20deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.counter-title h1{
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+}
+  
+.column {   
+    /* box toward left of the window screen */  
+    float: left;   
+   /*set size for each counter box */  
+    width: 25%;   
+        /*spacing between each box */  
+    padding: 4px;   
+}   
+      
+.row {   
+            /* Specify the margin for the row class */  
+    margin: 3px;  
+}    
+  
+/* Style the class named block */  
+.block {   
+    padding: 50px;   
+    text-align: center;   
+    background-color: green;   
+    color: white;   
+    }   
+  
+/* Provide styling for when mouse will move over the counter*/        
+.block:hover {   
+    transform: scale(1.1);   
+    background-color: brown;   
+    transition-duration: 2s;   
+    color: white;   
+}   
+      
+.fa {   
+    font-size: 50px;   
+}
+
+
+
+
+/*--NEWS--*/
+
+#news{
+    background: linear-gradient(rgba(0,0,0,0.3), #000000), url(images/DALL1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 70px 0;
+    background-color: #e8b8b8;
+}
+#news2{
+    background: linear-gradient(rgba(0,0,0,0.3), #000000), url(images/DALL1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 70px 0;
+    background-color: #e8b8b8;
+}
+
+.news-title{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.news-title p{
+    margin:auto;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+    display: inline-block;
+}
+.news-title p::after{
+    content: '';
+    width: 40px;
+    height: 45px;
+    background: linear-gradient(#b81818, #000000);
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    z-index: -1;
+    transform: rotate(20deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.news-title h1{
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+}
+.news-box{
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.one-news{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+}
+.one-news img{
+    width: 100%;
+    border-radius: 7px;
+}
+.overlayeffect {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5),#b81818);
+    opacity: 0;
+    transition: 1s;
+}
+.one-news:hover .overlayeffect{
+    opacity: 1;
+}
+.newsdesc {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%);
+    transition: 1s;
+}
+hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+.newsdesc p {
+    font-size: 14px;
+}
+.one-news:hover .newsdesc {
+    bottom: 40%;
+    opacity: 1;
+}
+.one-news a {
+    color: #fff; /* Set the color to white or any other desired color */
+    text-decoration: none; /* Optional: Remove underline */
+}
+
+
+/*testing*/
+
+/* General Styles */
+#body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+#solidaritytest {
+    background: linear-gradient(rgba(0,0,0,0.3), #000000), url(images/DALL1.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.solidarity-title{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.solidarity-title p{
+    margin:auto;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+    display: inline-block;
+}
+.solidarity-title p::after{
+    content: '';
+    width: 40px;
+    height: 45px;
+    background: linear-gradient(#b81818, #000000);
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    z-index: -1;
+    transform: rotate(20deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.solidarity-title h1{
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+}
+
+
+/* Left Container Styles */
+#left-container {
+    flex: 1;
+    padding: 20px;
+}
+
+#comment-form {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+form#commentForm {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Comments Container Styles */
+#comments-container {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#comments-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Right Container Styles */
+#right-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#header-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#solidarity-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#solidarity-count {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #4CAF50;
+}
+
+/*-----------Donation------------*/
+
+/* Style the donation section */
+
+#donation{
+    background: linear-gradient(rgba(0,0,0,0.3), #000000), url(images/DALL1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 70px 0;
+    background-color: #e8b8b8;
+    text-align: center;
+    
+}
+
+.donation-title{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.donation-title p{
+    margin:auto;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+    display: inline-block;
+}
+.donation-title p::after{
+    content: '';
+    width: 40px;
+    height: 45px;
+    background: linear-gradient(#b81818, #000000);
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    z-index: -1;
+    transform: rotate(20deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.donation-title h1{
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+}
+
+.donation-item {
+    display: inline-block;
+    width: 30%; /* Adjust the width as needed */
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.donation-item img {
+    max-width: 100%;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+p {
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*--------about me----------*/
+#aboutme{
+    background: linear-gradient(rgba(0,0,0,0.3), #000000), url(images/DALL1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 70px 0;
+    background-color: #e8b8b8;
+}
+
+.aboutme-title{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.aboutme-title p{
+    margin:auto;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+    display: inline-block;
+}
+.aboutme-title p::after{
+    content: '';
+    width: 40px;
+    height: 45px;
+    background: linear-gradient(#b81818, #000000);
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    z-index: -1;
+    transform: rotate(20deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.aboutme-title h1{
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about {
+    flex: 1;
+    padding: 20px;
+    text-align: left; /* Align the text to the left */
+}
+.about p{
+    font-size: 20px;
+}
+
+.image {
+    flex: 1;
+    text-align: center; /* Align the image to the center */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
